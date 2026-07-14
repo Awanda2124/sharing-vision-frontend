@@ -10,7 +10,7 @@ HTML, CSS, JavaScript (Vanilla), Bootstrap/Tailwind CSS
 
 1. Clone repository:
 ```bash
-   git clone https://github.com/username/frontend-repo.git
+   git clone https://github.com/Awanda2124/sharing-vision-frontend.git
    cd frontend-repo
 ```
 
