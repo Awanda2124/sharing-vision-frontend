@@ -1,0 +1,97 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.page-title {
+  margin-bottom: 1.5rem;
+}
+
+.action-icon {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
+
+.action-icon:last-child {
+  margin-right: 0;
+}
+
+.action-icon.btn-link {
+  padding: 0;
+  border: none;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 220px;
+  padding: 1rem 0;
+  overflow-y: auto;
+}
+
+.sidebar .navbar-brand {
+  color: #fff;
+  padding: 0 1rem 1rem;
+  font-weight: 600;
+}
+
+.sidebar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+  padding: 0.65rem 1rem;
+}
+
+.sidebar-nav .nav-link:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.sidebar-nav .nav-link.active {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.15);
+  font-weight: 600;
+}
+
+body {
+  padding-left: 220px;
+}
+
+/* Collapse ke hamburger di layar kecil */
+@media (max-width: 991.98px) {
+  body {
+    padding-left: 0;
+  }
+
+  .sidebar {
+    position: static;
+    width: 100%;
+  }
+
+  .sidebar-nav {
+    flex-direction: row !important;
+  }
+}
+
+.sidebar .navbar-collapse {
+  display: block !important;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar .navbar-collapse {
+    display: none !important;
+  }
+
+  .sidebar .navbar-collapse.show {
+    display: block !important;
+  }
+}
