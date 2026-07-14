@@ -11,7 +11,7 @@ HTML, CSS, JavaScript (Vanilla), Bootstrap/Tailwind CSS
 1. Clone repository:
 ```bash
    git clone https://github.com/Awanda2124/sharing-vision-frontend.git
-   cd frontend-repo
+   cd sharing-vision-frontend
 ```
 
 2. Buka `index.html` langsung di browser, **atau** jalankan local server (disarankan biar fetch API ke backend tidak terblokir):
@@ -20,4 +20,9 @@ HTML, CSS, JavaScript (Vanilla), Bootstrap/Tailwind CSS
 ```
    Lalu buka `http://localhost:3000`
 
-3. Pastikan backend sudah berjalan (lihat repo backend), karena frontend ini butuh koneksi ke backend API.
+3. Pastikan backend sudah berjalan (lihat repo backend), karena frontend ini butuh koneksi ke backend API. Base URL API dikonfigurasi di `js/api.js`.
+
+## Demo
+
+- **Live demo**: https://awanda2124.github.io/sharing-vision-frontend/
+- **Backend repo**: https://github.com/Awanda2124/sharing-vision-backend

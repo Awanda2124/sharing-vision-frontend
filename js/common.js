@@ -36,7 +36,7 @@
 function renderNavbar(activePage) {
   var pages = {
     dashboard: { label: "Dashboard", href: "dashboard.html" },
-    add: { label: "Add New", href: "add.html" },
+    add: { label: "Add New Article", href: "add.html" },
     preview: { label: "Preview", href: "preview.html" }
   };
 
