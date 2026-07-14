@@ -1,5 +1,5 @@
 var API = {
-  BASE_URL: "http://localhost:8080",
+  BASE_URL: "https://sharing-vision-backend-production.up.railway.app",
 
   getArticles: function (limit, offset) {
     return $.ajax({
